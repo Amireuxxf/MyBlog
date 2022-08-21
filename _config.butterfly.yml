@@ -471,7 +471,7 @@ site_verification:
 # - name: google-site-verification
 #   content: xxxxxx
  - name: baidu-site-verification
-   content: code-6h3DtBz9p3
+   content: code-bCLc2gGAZx
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -513,7 +513,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: 'url(/img/5.png)'
+background: url(https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg)
 
 # Footer Background
 footer_bg: false

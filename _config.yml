@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://amireuxxf.github.io
-permalink: archives/:abbrlink.html
+permalink: posts/:abbrlink/
 abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
   rep: hex    # 进制：dec(default) and hex
@@ -100,14 +100,14 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: 'git'
     repo: 'https://@github.com/Amireuxxf/Amireuxxf.github.io.git'
-    branch: main
+    branch: master
   - type: baidu_url_submitter
 
 search:
