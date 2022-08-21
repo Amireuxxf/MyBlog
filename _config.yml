@@ -106,7 +106,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: 'git'
-    repo: 'https://github.com/Amireuxxf/Amireuxxf.github.io.git'
+    repo: 'https://Amireuxxf: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@github.com/Amireuxxf/Amireuxxf.github.io.git'
     branch: main
   - type: baidu_url_submitter
 
