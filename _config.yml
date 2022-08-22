@@ -5,7 +5,7 @@
 # Site
 title: 赵小航的个人博客
 subtitle: ''
-description: '可预测性不是事物的走向，而是它们的可能趋势。——拉海尔•法鲁克'
+description: '时间向来温柔慷慨，善恶两端喜忧参半。'
 keywords: 博客
 author: 赵小航
 language: zh-CN
@@ -107,7 +107,7 @@ theme: butterfly
 deploy:
   - type: 'git'
     repo: 'https://@github.com/Amireuxxf/Amireuxxf.github.io.git'
-    branch: master
+    branch: main
   - type: baidu_url_submitter
 
 search:
