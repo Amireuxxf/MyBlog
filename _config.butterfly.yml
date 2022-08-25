@@ -7,6 +7,11 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  留言板: /comments/ || fas fa-envelope
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
   链接||fas fa-list:
     友情链接: /link/ || fas fa-link
     关于: /about/ || fas fa-heart
@@ -74,42 +79,42 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/30.jpg
 
 # Avatar (頭像)
 avatar:
-  img: './img/30.jpg'
+  img: 'https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/30.jpg'
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: "./img/5.png"
+index_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: "https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg"
+default_top_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 # The banner image of archive page
-archive_img: "https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg"
+archive_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: "https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg"
+tag_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: "https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg"
+tag_per_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: "https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg"
+category_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: "https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg"
+category_per_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -121,7 +126,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-   - "./img/5.png"
+   - "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -263,7 +268,7 @@ comments:
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   count: false # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
@@ -284,7 +289,7 @@ disqusjs:
 # livere (來必力)
 # https://www.livere.com/
 livere:
-  uid:
+  uid: MTAyMC81NzEyOS8zMzU5Mw==
 
 # gitalk
 # https://github.com/gitalk/gitalk
@@ -421,7 +426,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 很高兴认识你
+  custom_text: 很高兴认识你~
   copyright: false # Copyright of theme and framework
 
 # Analysis
@@ -513,7 +518,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://cdn.pixabay.com/photo/2022/07/10/19/28/mountains-7313638_960_720.jpg)
+background: url(https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png)
 
 # Footer Background
 footer_bg: false
@@ -636,7 +641,7 @@ subtitle:
     - 时间向来温柔慷慨，善恶两端喜忧参半。
 
 # Loading Animation (加載動畫)
-preloader: false
+preloader: true
 
 # aside (側邊欄)
 # --------------------------------------
@@ -661,7 +666,7 @@ aside:
       link: https://github.com/Amireuxxf
   card_announcement:
     enable: true
-    content: 欢迎来到我的博客
+    content: 欢迎来到我的博客鸭~
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -700,8 +705,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 8/20/2022 16:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -802,7 +807,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -828,7 +833,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
@@ -858,7 +863,9 @@ inject:
   head:
    - <link rel="stylesheet" href="./css/style.css">
   bottom:
-  # - <script src="xxxx"></script>
+    # aplayer音乐
+    - <div class="aplayer no-destroy" data-id="1450455519" data-server="tencent" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -933,3 +940,65 @@ CDN:
   # prismjs_autoloader:
   # artalk_js:
   # artalk_css:
+
+# wowjs
+# see https://www.npmjs.com/package/hexo-butterfly-wowjs
+wowjs:
+  enable: true #控制动画开关。true是打开，false是关闭
+  priority: 10 #过滤器优先级
+  mobile: false #移动端是否启用，默认移动端禁用
+  animateitem:
+    - class: recent-post-item #必填项，需要添加动画的元素的class
+      style: animate__zoomIn #必填项，需要添加的动画
+      duration: 1.5s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 200ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 30 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: card-widget
+      style: animate__zoomIn
+      delay: 200ms
+    # - class: flink-list-card
+    #   style: wowpanels
+    - class: flink-list-card
+      style: animate__flipInY
+      duration: 3s
+    - class: flink-list-card
+      style: animate__animated
+      duration: 3s
+    - class: article-sort-item
+      style: animate__slideInRight
+      duration: 1.5s
+    - class: site-card
+      style: animate__flipInY
+      duration: 3s
+    - class: site-card
+      style: animate__animated
+      duration: 3s
+  animate_css: https://cdn.cbd.int/hexo-butterfly-wowjs/lib/animate.min.css
+  wow_js: https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow.min.js
+  wow_init_js: https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow_init.js
+
+# envelope_comment
+# see https://akilar.top/posts/e2d3c450/
+# envelope_comment
+# see https://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://cdn.cbd.int//hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://cdn.cbd.int/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://cdn.cbd.int/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://cdn.cbd.int/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1050px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+
+

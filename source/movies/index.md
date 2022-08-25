@@ -1,6 +1,6 @@
 ---
-title: 分类页
-date: 2022-08-20 17:24:38
-type: "categories"
+title: 电影
+date: 2022-08-24 23:37:02
+type: "movies"
 top_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
 ---
