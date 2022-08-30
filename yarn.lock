@@ -1994,10 +1994,24 @@
     "mv" "~2"
     "safe-json-stringify" "~1"
 
+"hexo-butterfly-clock-anzhiyu@^1.0.6":
+  "integrity" "sha512-WUj7Ce5fx6z3jJIhvwJcVUzn4/MInwXq2vXPi4Dod8jKDVbrVnJy2jcDCDaTLJjfzDKVQ+aiMuEebZwu2svfpw=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-clock-anzhiyu/-/hexo-butterfly-clock-anzhiyu-1.0.6.tgz"
+  "version" "1.0.6"
+  dependencies:
+    "pug" "^3.0.0"
+
 "hexo-butterfly-envelope@^1.0.15":
   "integrity" "sha512-Z12iYDhrrJkARSvCIYTVRPrlipLE9o5Zeh2kozj/MbLz5tcQmfr62w+qu+hOJh2XiZucAyyoUyZq5faKP4YD4A=="
   "resolved" "https://registry.npmmirror.com/hexo-butterfly-envelope/-/hexo-butterfly-envelope-1.0.15.tgz"
   "version" "1.0.15"
+  dependencies:
+    "pug" "^3.0.0"
+
+"hexo-butterfly-footer-beautify@^1.0.6":
+  "integrity" "sha512-zGA0b1BgL0CTmh3mKOvSh5TY6o3HW8tt/Xnhr+8g+I0MrzDcaBUXx9Ci2jyZRIctgFHS/0pcWd/Ro0Db2py42w=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-footer-beautify/-/hexo-butterfly-footer-beautify-1.0.6.tgz"
+  "version" "1.0.6"
   dependencies:
     "pug" "^3.0.0"
 

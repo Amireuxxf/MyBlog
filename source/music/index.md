@@ -2,7 +2,7 @@
 title: 音乐
 date: 2022-08-24 23:36:15
 type: "music"
-top_img: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/5.png"
+top_img: "/img/5.png"
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css"> 
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script> 
