@@ -48,7 +48,7 @@ jobs:
 
       - name: 部署到github pages
         run: |
-          git config --global user.name "Amireuxxf"
+          git config --global user.name "赵启航"
           git config --global user.email "1776331612@qq.com"
           git clone https://github.com/Amireuxxf/Amireuxxf.github.io.git .deploy_git
           # 此处务必用HTTPS链接。SSH链接可能有权限报错的隐患
