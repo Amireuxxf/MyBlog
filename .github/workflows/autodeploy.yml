@@ -74,7 +74,7 @@ name: deploy blog to aliyun
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
