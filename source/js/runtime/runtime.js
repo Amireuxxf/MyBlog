@@ -1,7 +1,7 @@
 var now = new Date;
 
 function createtime() {
-    var grt = new Date("08/20/2022 16:00:00");
+    var grt = new Date("08/20/2022 00:00:00");
     now.setTime(now.getTime() + 250);
     var days = (now - grt) / 1e3 / 60 / 60 / 24, dnum = Math.floor(days),
         hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum, hnum = Math.floor(hours);

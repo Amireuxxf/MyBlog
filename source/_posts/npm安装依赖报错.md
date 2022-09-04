@@ -5,7 +5,7 @@ date: 2022-08-30 21:01:47
 tags: 技术教程
 description: 技术教程
 ---
-#### 在仓库上拉下来项目，安装依赖时报错：
+#### 在仓库上拉取项目，安装依赖时报错：
 
 &emsp; npm报错：npm ERR! code ECONNREFUSED npm ERR! errno ECONNREFUSED，npm ERR! npm ERR! If you are behind a proxy, please make sure that the
 

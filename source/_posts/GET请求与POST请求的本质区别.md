@@ -20,8 +20,7 @@ GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过
 “很遗憾，这不是我们要的回答！”
 
 &emsp;&emsp;请告诉我真相。。。
-如果我告诉你GET和POST本质上没有区别你信吗？
-让我们扒下GET和POST的外衣，坦诚相见吧！
+&emsp;&emsp;如果我告诉你GET和POST本质上没有区别你信吗？让我们扒下GET和POST的外衣，坦诚相见吧！
 
 &emsp;&emsp;GET和POST是什么？HTTP协议中的两种发送请求的方法。
 HTTP是什么？HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议。
