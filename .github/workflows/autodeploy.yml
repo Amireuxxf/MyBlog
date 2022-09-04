@@ -61,8 +61,8 @@ jobs:
         uses: cross-the-world/scp-pipeline@master
         with:
           host: ${{ secrets.USER_HOST }}
-          username: ${{ secrets.USER_NAME }}
-          password: ${{ secrets.USER_PASS }}
+          user: ${{ secrets.USER_NAME }}
+          pass: ${{ secrets.USER_PASS }}
           connect_timeout: 10s
           local: './.deploy_git/*'
           remote: "/www/wwwroot/amireuxxf.cn"
