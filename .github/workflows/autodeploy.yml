@@ -65,6 +65,6 @@ jobs:
           pass: ${{ secrets.USER_PASS }}
           port: ${{ secrets.USER_PORT }}
           connect_timeout: 10s
-          local: './.deploy_git/*'
+          local: './public/*'
           remote: /www/wwwroot/amireuxxf.cn/
 
