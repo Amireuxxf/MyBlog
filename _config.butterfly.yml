@@ -1113,8 +1113,8 @@ gitcalendar:
   gitcalendar_js: https://cdn.cbd.int/hexo-filter-gitcalendar/lib/gitcalendar.js
 
 swiper:
-  enable: false # 开关
-  randomenable: false # 人潮汹涌开关
+  enable: true # 开关
+  randomenable: true # 人潮汹涌开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
   timemode: date #date/updated
@@ -1123,9 +1123,9 @@ swiper:
     name: recent-posts
     index: 1
   default_descr: 再怎么看我也不知道怎么描述它的啦！
-  swiper_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/lib/swiper.min.css #swiper css依赖
-  swiper_js: https://cdn.cbd.int/anzhiyu-blog@1.1.6/js/swiper.min.js #swiper js依赖 #swiper js依赖
-  custom_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/lib/swiperstyle.css # 适配主题样式补丁
-  custom_js: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/lib/swiper_init.js # swiper初始化方法
+  swiper_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/js/swiper.min.js #swiper js依赖 #swiper js依赖
+  custom_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiper_init.js # swiper初始化方法
   gsap_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js # gsap依赖 随机逛逛依赖
-  people_js: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/js/people/people.js # 随机逛逛js
+  people_js: https://npm.elemecdn.com/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/people.min.js # 随机逛逛js
