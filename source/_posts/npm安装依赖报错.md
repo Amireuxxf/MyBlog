@@ -4,6 +4,7 @@ abbrlink: 4dbbe0bc
 date: 2022-08-30 21:01:47
 tags: 技术教程
 description: 技术教程
+swiper_index: 5
 ---
 #### 在仓库上拉取项目，安装依赖时报错：
 

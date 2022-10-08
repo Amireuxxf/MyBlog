@@ -4,6 +4,7 @@ abbrlink: b7e07608
 date: 2022-08-30 20:31:49
 tags: 信息技术
 description: 信息技术
+swiper_index: 6
 ---
 GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过WEB开发的人都能说出一二。
 - 最直观的区别就是GET把参数包含在URL中，POST通过request body传递参数。

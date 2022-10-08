@@ -6,6 +6,7 @@ top_img: "/img/5.png"
 cover: "/img/57.jpg"
 abbrlink: 9b28f329
 date: 2022-08-22 12:05:56
+swiper_index: 7
 ---
 ### 1.面向对象特性？
 - **封装**
