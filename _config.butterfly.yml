@@ -1112,7 +1112,6 @@ gitcalendar:
   gitcalendar_css: https://cdn.cbd.int/hexo-filter-gitcalendar/lib/gitcalendar.css
   gitcalendar_js: https://cdn.cbd.int/hexo-filter-gitcalendar/lib/gitcalendar.js
 
-
 swiper:
   enable: false # 开关
   randomenable: false # 人潮汹涌开关
