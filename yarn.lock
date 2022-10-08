@@ -2015,6 +2015,13 @@
   dependencies:
     "pug" "^3.0.0"
 
+"hexo-butterfly-swiper-anzhiyu@^1.0.4":
+  "integrity" "sha512-8pdbgq4RS3m1hnuu5fi2O7Opx+VUpMIhOj3MBfhmES78Y4X7bcQerbfrAL9n3QxOjFtpIyNXyZeMoqky8qyqJQ=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-swiper-anzhiyu/-/hexo-butterfly-swiper-anzhiyu-1.0.4.tgz"
+  "version" "1.0.4"
+  dependencies:
+    "pug" "^3.0.0"
+
 "hexo-butterfly-wowjs@^1.0.5":
   "integrity" "sha512-bC3P5dHr3DyclXt9yvWqzDvmrRjBE6h66A7WkVsB00MaOZUHVKZbD18r4WuH5RQtHdJlTnZf/ADyYBHFTEVEqw=="
   "resolved" "https://registry.npmmirror.com/hexo-butterfly-wowjs/-/hexo-butterfly-wowjs-1.0.5.tgz"
