@@ -1114,8 +1114,8 @@ gitcalendar:
 
 
 swiper:
-  enable: true # 开关
-  randomenable: true # 人潮汹涌开关
+  enable: false # 开关
+  randomenable: false # 人潮汹涌开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
   timemode: date #date/updated
