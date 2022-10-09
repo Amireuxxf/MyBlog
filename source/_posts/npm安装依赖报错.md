@@ -1,5 +1,6 @@
 ---
 title: npm安装依赖报错
+cover: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/69.jpg"
 abbrlink: 4dbbe0bc
 date: 2022-08-30 21:01:47
 tags: 技术教程

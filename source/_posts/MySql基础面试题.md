@@ -2,6 +2,8 @@
 title: MySql基础面试题
 tags: 面试
 description: MySql基础面试题
+top_img: "/img/5.png"
+cover: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/65.jpg"
 swiper_index: 1
 abbrlink: 66f81538
 date: 2022-10-08 19:38:45
