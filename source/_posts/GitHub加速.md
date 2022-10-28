@@ -1,6 +1,6 @@
 ---
 title: GitHub加速
-cover: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/68.jpg"
+cover: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/17.jpg"
 abbrlink: 7b72b0de
 date: 2022-08-31 11:24:33
 tags: 教程
