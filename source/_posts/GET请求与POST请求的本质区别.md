@@ -1,7 +1,7 @@
 ---
 title: GET请求与POST请求的本质区别
 top_img: "/img/5.png"
-cover: "https://gitee.com/amireuxxf/PicGo/raw/master/img/1.jpg"
+cover: "https://cdn.jsdelivr.net/gh/Amireuxxf/PicGo/img/70.jpg"
 abbrlink: b7e07608
 date: 2022-08-30 20:31:49
 tags: 信息技术
